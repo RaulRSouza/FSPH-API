@@ -1,6 +1,6 @@
 # 🧪 Portal LACEN - API de Envio de Amostras
 
-Projeto desenvolvido pelo **Squad 2** para a Fundação de Saúde Parreiras Horta (FSPH).  
+Projeto desenvolvido para a Fundação de Saúde Parreiras Horta (FSPH).  
 Esta API gerencia o cadastro, envio e controle de amostras biológicas enviadas pelas prefeituras para o LACEN/SE.
 
 Este projeto é uma API RESTful desenvolvida com **Spring Boot**, voltada para o gerenciamento de **lotes**, **amostras** e **lâminas** em um fluxo laboratorial. O sistema oferece funcionalidades completas, controle de acesso com JWT, verificação de integridade, upload e download de laudos, além de respeitar os princípios da **LGPD**.
@@ -101,3 +101,4 @@ Link do documento contendo todos os enpoints para utilizar a API:
 git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
 ./mvnw spring-boot:run
+( se nao rodar, use o mvn clean)
